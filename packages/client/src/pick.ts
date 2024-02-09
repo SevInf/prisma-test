@@ -1,3 +1,4 @@
+//test
 export function pick<T, K extends keyof T>(obj: T, keys: K[]): Pick<T, K> {
   return Object.keys(obj as any)
     .filter((key) => keys.includes(key as any))
